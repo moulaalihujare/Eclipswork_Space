@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Moulaali
+ *
+ */
+module javaProgram {
+}

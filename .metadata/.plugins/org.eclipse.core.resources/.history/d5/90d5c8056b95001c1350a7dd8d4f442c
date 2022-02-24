@@ -1,0 +1,17 @@
+package com;
+
+public class ThreadShample extends Thread {
+
+	public void run() {
+		
+		
+		System.out.println("Thread one is Running ...");
+	}
+
+		public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			
+	}
+
+}

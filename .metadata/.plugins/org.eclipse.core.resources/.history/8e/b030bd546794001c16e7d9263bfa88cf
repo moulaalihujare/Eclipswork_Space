@@ -1,0 +1,41 @@
+package com;
+
+class Employee{
+	
+	
+	public Employee() {
+		
+		//this(102);
+		
+		System.out.println("it is empty const.free");
+	}
+	
+	Employee (int id){
+		
+		this(104,"Ali");
+		
+		System.out.println("One const.ID=" +id);
+
+	}
+	
+    Employee (int id, String name){
+    	
+		this();
+		System.out.println("Two const.Id=" +id);
+		System.out.println("Two const.Name=" +name);
+
+	
+	}
+	
+}
+public class ThisPara {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Employee emp1= new Employee();
+		
+		
+	}
+
+}

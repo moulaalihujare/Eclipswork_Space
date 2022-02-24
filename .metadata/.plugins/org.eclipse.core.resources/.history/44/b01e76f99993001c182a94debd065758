@@ -1,0 +1,54 @@
+package com;
+
+
+class Bike{
+	
+	void speed() {
+		
+	System.out.println("60km/hr");
+	}
+	
+}
+class Honda extends Bike{
+	
+	void speed() {
+		
+		System.out.println("90 km /hr");
+	}
+	
+	
+	void color() {
+		
+		System.out.println("Black");
+		
+		
+	}
+}
+
+class Pulsar extends Bike{
+	
+	void color() {
+		
+		System.out.println("Red");
+		
+	}
+}
+
+public class MethodOverriddingTest {
+
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generhated method stub
+		
+		Honda h= new Honda();
+		h.speed();
+		h.color();
+		Pulsar p= new Pulsar();
+		p.speed();
+		
+
+	}
+
+}

@@ -1,0 +1,37 @@
+package com;
+
+public class TryAndCatchExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("Hi there !");
+		
+		int a=10;
+		int b=0;
+		int abc[]= {10,20,30,80};	
+		try {
+		
+		int res=a/b;
+		
+		System.out.println("Res:"+res);
+		
+		int res1=a/abc[5];
+		
+		System.out.println("Res1:"+res1);
+			
+		}
+		
+		catch(Exception e) {
+			
+			//System.out.println("I will take care about the error !");
+			System.out.println(e.toString());
+		}
+		
+		
+		System.out.println("Byeee !");
+		System.out.println("Byeee !");
+		
+	}
+
+}

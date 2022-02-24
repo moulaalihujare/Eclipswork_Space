@@ -1,0 +1,14 @@
+package education.main;
+
+import education.college.Attendance;
+
+public class Mainclass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Attendance at1= new Attendance();
+		at1.dis();
+	}
+
+}

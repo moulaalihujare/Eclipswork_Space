@@ -1,0 +1,31 @@
+package com;
+
+public class MinArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+		int []a= {90,10,20,80};	
+		
+		int value=a[0];
+		
+		for (int i=0; i<a.length; i++) {
+			
+			
+			if (value >a[i]) {
+				
+					value=a[i];
+				
+				
+
+			}
+			
+			System.out.println(""+value);
+						
+		}
+			
+	}
+
+}

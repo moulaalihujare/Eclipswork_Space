@@ -1,0 +1,16 @@
+package abc;
+
+public class Manager {
+
+public void didEmpInfo() {
+	
+        Employee emp= new Employee();	
+		
+		//System.out.println("a"+ emp.a);
+		System.out.println("Rakesh"+emp.b);
+		System.out.println("Mohan"+emp.c);
+		System.out.println("Sunil"+emp.d);
+	
+	}
+	
+}

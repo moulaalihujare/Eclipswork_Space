@@ -1,0 +1,55 @@
+package com;
+
+interface A{	
+	
+	int x=10;
+	
+	void dip1();
+}
+
+interface B{
+	
+	
+	int y=10;
+	
+	void dip2();
+}
+
+interface C extends A, B{
+
+	int z=30;
+	
+	void dip3();
+}
+
+class D implements A,B{
+	
+    int sum= x+y;
+    
+    public void dip1() {
+    	
+    	System.out.println(" A interface method; Sum="+sum);
+    }
+    
+    
+	public void dip2() {
+		
+		System.out.println(" B interface method; Sum="+sum);
+	}
+	
+}
+
+
+public class Inface {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		D d1= new D();
+		
+		d1.dip1();
+		d1.dip2();
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+import java.util.*;
+public class Moula {
+
+	public static void main(String str[]) {
+		
+	
+		int a=10;
+		
+		System.out.println(a);
+				
+	}
+	
+	
+}

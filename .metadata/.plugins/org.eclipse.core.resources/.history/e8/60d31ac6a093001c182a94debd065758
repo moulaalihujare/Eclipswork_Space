@@ -1,0 +1,30 @@
+package com;
+
+public class Finalkey {
+
+	
+   int a=10;
+   final float pi=3.14f;
+	
+	void dis() {
+		
+		System.out.println(pi);
+	}
+}
+	class B extends Finalkey{
+		
+		void dis() {
+			
+			System.out.println("Method overrid");
+		}
+		
+		
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		B obj = new B();
+		obj.dis();
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package abc;
+
+public class Employee {
+
+	private int a;
+	int b;
+	protected int c;
+	public int d;
+	
+	public void didEmpInfo() {
+		
+		System.out.println("Nitin"+a);
+		System.out.println("Gurav"+b);
+		System.out.println("Mina"+c);
+		System.out.println("Monika"+d);
+	
+	}
+	
+}

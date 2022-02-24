@@ -1,0 +1,37 @@
+package com;
+
+class Employee{
+	
+	
+	public Employee() {
+		
+		
+		System.out.println("it is empty const");
+	}
+	
+	Employee (int id){
+		
+		System.out.println(" One const");
+
+	}
+	
+    Employee (int id, String name){
+		
+		System.out.println("Two const");
+
+	}
+	
+}
+
+
+public class ThisPara {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Employee emp1= new Employee();
+		
+		
+	}
+
+}
